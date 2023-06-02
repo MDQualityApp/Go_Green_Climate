@@ -1,8 +1,8 @@
 import React from 'react'
-import pagenotfound from '../../Assets/pagenotfound.png'
+import pagenotfound from '../assets/pagenotfound.png'
 import { Box, Button, Container } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import { startUrl } from '../../Routes';
+import { startUrl } from '../Routes';
 
 function Pagenotfound() {
     const navigate = useNavigate();

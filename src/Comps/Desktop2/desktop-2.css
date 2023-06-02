@@ -95,13 +95,17 @@ body {
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
+
+/* Second Layout  */
+
 .desktop-2-HUr .auto-group-qsb3-GX8 {
   box-sizing: border-box;
+  margin-top: 2rem;
   padding: 6.6rem 20.1rem 16.4rem 16.7rem;
   width: 119.7rem;
   height: 79.8rem;
   position: absolute;
-  left: 14.7rem;
+  left: 6.5rem;
   top: 22.6rem;
   align-items: center;
   display: flex;
@@ -109,7 +113,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../assets/rectangle-10-bg.png');
+  background-image: url('../../assets/rectangle-10-bg.png');
   border-radius: 1.5rem;
 }
 .desktop-2-HUr .auto-group-qsb3-GX8 .auto-group-wwau-kSJ {
@@ -197,11 +201,12 @@ body {
   height: 4.9rem;
   position: absolute;
   left: 50.6rem;
-  top: 14.7rem;
+  top: 12.7rem;
   font-size: 4rem;
   font-weight: 400;
   line-height: 1.2125;
   color: rgba(0, 0, 17, 0.6299999952);
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
+  margin-top:4rem;
 }

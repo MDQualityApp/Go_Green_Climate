@@ -1,0 +1,114 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+input {
+    border: none;
+}
+
+body {
+    width: 144rem;
+}
+
+.desktop-1-42aa {
+    box-sizing: border-box;
+    padding: 3.9rem 0rem 5.5rem 3rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffee;
+}
+
+.desktop-1-42aa .auto-group-wh57-8wY {
+    margin: 0rem 0rem 10.2rem 0rem;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.desktop-1-42aa .auto-group-wh57-8wY .removebg-preview-1-FoC {
+    width: 44.7rem;
+    height: 6.7rem;
+    object-fit: cover;
+    vertical-align: top;
+    flex-shrink: 0;
+    float: left;
+}
+
+.desktop-1-42aa .auto-group-wh57-8wY .home-VSe {
+    margin: 0rem 3rem 0rem 20rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #000000;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.desktop-1-42aa .auto-group-wh57-8wY .how-it-works-H7c {
+    margin: 0rem 5rem 0rem 5rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #000000;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.desktop-1-42aa .auto-group-wh57-8wY .auto-group-vigd-kWz {
+    margin-bottom: 1.1rem;
+    width: 27rem;
+    height: 5.4rem;
+    position: relative;
+    justify-content: start;
+    flex-shrink: 0;
+}
+
+.desktop-1-42aa .auto-group-wh57-8wY .auto-group-vigd-kWz .frame-1-Suc {
+    width: 18.9rem;
+    height: 5.2rem;
+    position: absolute;
+    left: 20.1rem;
+    top: 0;
+    overflow: hidden;
+}
+
+.desktop-1-42aa .auto-group-wh57-8wY .auto-group-vigd-kWz .rectangle-5-XAN {
+    width: 27rem;
+    height: 5.3rem;
+    position: absolute;
+    left: 0;
+    top: 0.1rem;
+    background-color: #84cb25;
+    border-radius: 2rem;
+}
+
+.desktop-1-42aa .auto-group-wh57-8wY .auto-group-vigd-kWz .connect-your-wallet-y2N {
+    width: 18.9rem;
+    height: 2.5rem;
+    position: absolute;
+    left: 4.5rem;
+    top: 1.6rem;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2125;
+    color: #fdfffe;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+}

@@ -14,98 +14,23 @@ input {
 }
 body {
   width: 144rem;
-}.desktop-1-42a {
-  box-sizing: border-box;
-  padding: 6.9rem 0rem 6.6rem 5.2rem;
+}
+.desktop-1-42a{
   width: 100%;
-  overflow: hidden;
-  position: relative;
-  align-items: flex-end;
-  display: flex;
-  flex-direction: column;
-  background-color: #ffffee;
-}
-.desktop-1-42a .auto-group-wh57-8wY {
-  margin: 0rem 5.8rem 10.2rem 0rem;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-.desktop-1-42a .auto-group-wh57-8wY .removebg-preview-1-FoC {
-  margin-right: 32.8rem;
-  width: 44.7rem;
-  height: 6.7rem;
-  object-fit: cover;
-  vertical-align: top;
-  flex-shrink: 0;
-}
-.desktop-1-42a .auto-group-wh57-8wY .home-VSe {
-  margin: 0rem 5rem 0.6rem 0rem;
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 1.2125;
-  color: #000000;
-  font-family: Inter, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.desktop-1-42a .auto-group-wh57-8wY .how-it-works-H7c {
-  margin: 0rem 5.6rem 0.2rem 0rem;
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 1.2125;
-  color: #000000;
-  font-family: Inter, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.desktop-1-42a .auto-group-wh57-8wY .auto-group-vigd-kWz {
-  margin-bottom: 1.1rem;
-  width: 27rem;
-  height: 5.4rem;
-  position: relative;
-  flex-shrink: 0;
-}
-.desktop-1-42a .auto-group-wh57-8wY .auto-group-vigd-kWz .frame-1-Suc {
-  width: 17.9rem;
-  height: 5.2rem;
-  position: absolute;
-  left: 9.1rem;
-  top: 0;
-  overflow: hidden;
-}
-.desktop-1-42a .auto-group-wh57-8wY .auto-group-vigd-kWz .rectangle-5-XAN {
-  width: 26rem;
-  height: 5.3rem;
-  position: absolute;
-  left: 0;
-  top: 0.1rem;
-  background-color: #84cb25;
-  border-radius: 2rem;
-}
-.desktop-1-42a .auto-group-wh57-8wY .auto-group-vigd-kWz .connect-your-wallet-y2N {
-  width: 20rem;
-  height: 2.5rem;
-  position: absolute;
-  left: 3.1rem;
-  top: 1.6rem;
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1.2125;
-  color: #fdfffe;
-  font-family: Inter, 'Source Sans Pro';
-  white-space: nowrap;
+    height: 120.4rem;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffee;
 }
 .desktop-1-42a .auto-group-zlsh-nEi {
-  margin-left: 11rem;
-  width: calc(100% - 11rem);
+  width: 100%;
   height: 72rem;
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
 }
 .desktop-1-42a .auto-group-zlsh-nEi .auto-group-gjdw-qin {
-  margin: 3.8rem 11.8rem 0rem 0rem;
+  margin: 3.8rem 11.8rem 0rem 3rem;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
@@ -249,10 +174,10 @@ body {
   white-space: nowrap;
 }
 .desktop-1-42a .auto-group-zlsh-nEi .auto-group-4bx3-w34 .pngwing-3-EXG {
-  width: 71.5rem;
+  width: 65.5rem;
   height: 29.2rem;
   position: absolute;
-  left: 3.4rem;
+  left: 0rem;
   top: 42.8rem;
   object-fit: cover;
   vertical-align: top;
