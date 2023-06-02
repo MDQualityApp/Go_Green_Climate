@@ -3,7 +3,7 @@ import { Box, Typography } from '@mui/material';
 import './desktop-2.css';
 import logo from '../../assets/removebg-preview-1-tSJ.png'
 import onejk from '../../assets/-1jk.png'
-import png from '../../assets/.png'
+import png from '../../assets/twoJk.png'
 import collection from '../../assets/collection.png'
 import Header from '../Header/Header';
 
