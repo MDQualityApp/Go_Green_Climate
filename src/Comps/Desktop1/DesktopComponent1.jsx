@@ -1,4 +1,4 @@
-import { Box, Typography} from '@mui/material';
+import { Box, Typography ,TextField, Button} from '@mui/material';
 import './desktop-1.css';
 import RemoveBg from '../../assets/removebg-preview-1-cNA.png'
 import pngwing from '../../assets/pngwing-2-tqL.png'
@@ -27,20 +27,40 @@ const DesktopComponent1 = () => {
                 </Box>
                 <Box className="auto-group-4bx3-w34">
                     <Box className="rectangle-1-1oc"></Box>
-                    <Box className="rectangle-2-WVU"></Box>
-                    <Box className="rectangle-6-ZyY"></Box>
-                    <Box className="rectangle-4-nrJ"></Box>
-                    <Typography className="r4pv7u6wtyijnmelfi7hcqrvath2r4yatqgvjdbvg3r-s74">
-                        5r4Pv7u6WTyijnMELfi7hCqrVATH2r4YATQgvjDBVG3r
-                    </Typography>
+                    <TextField
+                        className='r4pv7u6wtyijnmelfi7hcqrvath2r4yatqgvjdbvg3r-s74'
+                        id="standard-basic"
+                        defaultValue="5r4Pv7u6WTyijnMELfi7hCqrVATH2r4YATQgvjDBVG3r"
+                        InputProps={{
+                            disableUnderline: true,
+                            sx: {
+                                bgcolor: 'white',
+                                borderRadius: 5,
+                                fontSize: 16
+                            }
+                        }}
+                    />
                     <Typography className="number-of-nfts-JCN">Number of NFTs</Typography>
                     <Typography className="mint-your-nft-vUe">Mint your NFT</Typography>
-                    <Typography className="enter-the-number-of-nfts-kia">Enter the number of NFTs</Typography>
-                    <Typography className="mint-ZAE">Mint</Typography>
+                    <TextField
+                        className='enter-the-number-of-nfts-kia'
+                        id="standard-basic"
+                        defaultValue="Enter the number of NFTs"
+                        InputProps={{
+                            disableUnderline: true,
+                            sx: {
+                                bgcolor: 'white',
+                                borderRadius: 5, 
+                                fontSize:16
+                            }
+                        }}
+                    />
+                    <Button variant='contained' className="mint-ZAE" sx={{fontWeight:600 , borderRadius:5}}>Mint</Button>
                     <img className="pngwing-3-EXG" src={pngwing3} alt='pngwing' />
                 </Box>
             </Box>
         </Box>
+
     );
 };
 

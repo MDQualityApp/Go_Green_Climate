@@ -17,10 +17,10 @@ const DesktopComponent2 = () => {
                     <img className="item-9-BXc" src={png} alt="item-9" />
                     <img className="collection-hVx" src={collection} alt="collection" />
                 </Box>
-                <Box className="auto-group-jevh-zjx">
+                <Box className="auto-group-jevh-zjx" textAlign='left'>
                     <Typography variant="body1" className="number-of-nfts-3-7Jn">Number of NFT’s = 3</Typography>
-                    <Typography variant="body1" className="number-of-trees-15-2Ar">Number of Trees = 15</Typography>
-                    <Typography variant="body1" className="total-value-3-sol-x4W">Total value = 3 SOL</Typography>
+                    <Typography variant="body1" className="number-of-trees-15-2Ar"> Number of Trees = 15</Typography>
+                    <Typography variant="body1" className="total-value-3-sol-x4W"> Total value = 3 SOL</Typography>
                 </Box>
             </Box>
             <Typography variant="body1" className="your-contribution-z1C">Your Contribution</Typography>

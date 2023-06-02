@@ -24,7 +24,7 @@ const DesktopComponent4 = () => {
                         <Box className="rectangle-18-vR4"></Box>
                         <Box className="rectangle-19-q2E"></Box>
                         <Box className="rectangle-20-szW"></Box>
-                        <Typography variant="body1" className="emissions-tracking-o7U">Emissions Tracking</Typography>
+                        <Typography variant="body1" className="emissions-tracking-o7U" sx={{borderRadisu:5}}>Emissions Tracking</Typography>
                         <Typography variant="body1" className="carbon-accounting-gSA">Carbon Accounting</Typography>
                         <Typography variant="body1" className="footprint-analysis-As8">Footprint Analysis</Typography>
                         <Typography variant="body1" className="emissions-monitoring-4Si">Emissions Monitoring</Typography>
