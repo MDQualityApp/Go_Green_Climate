@@ -12,18 +12,13 @@ ul, li {
 input {
 	border: none;
 }
-body {
-  width: 144rem;
-}
 .desktop-1-42a{
-  width: 100%;
     height: 120.4rem;
     position: relative;
     overflow: hidden;
     background-color: #ffffee;
 }
 .desktop-1-42a .auto-group-zlsh-nEi {
-  width: 100%;
   height: 72rem;
   display: flex;
   align-items: flex-start;

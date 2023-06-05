@@ -9,7 +9,7 @@ import Header from '../Header/Header';
 const DesktopComponent4 = () => {
     return (
         <Box className="desktop-4-AX8">
-            <Header />
+        <Header />
             <Typography variant="body1" className="your-carbon-footprint-jXc">Your Carbon Footprint</Typography>
             <Box className="auto-group-ynay-crJ">
                 <img className="pngegg-3-1-jAE" src={pngengg} alt="image" />

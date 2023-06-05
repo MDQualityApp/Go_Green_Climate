@@ -25,39 +25,6 @@ const DesktopComponent1 = () => {
                     <img className="pngwing-2-PNv" src={pngwing} alt='pngwing' />
                     <img className="full-solana-logo-1-3iN" src={solana} alt='solana' />
                 </Box>
-                <Box className="auto-group-4bx3-w34">
-                    <Box className="rectangle-1-1oc"></Box>
-                    <TextField
-                        className='r4pv7u6wtyijnmelfi7hcqrvath2r4yatqgvjdbvg3r-s74'
-                        id="standard-basic"
-                        defaultValue="5r4Pv7u6WTyijnMELfi7hCqrVATH2r4YATQgvjDBVG3r"
-                        InputProps={{
-                            disableUnderline: true,
-                            sx: {
-                                bgcolor: 'white',
-                                borderRadius: 5,
-                                fontSize: 16
-                            }
-                        }}
-                    />
-                    <Typography className="number-of-nfts-JCN">Number of NFTs</Typography>
-                    <Typography className="mint-your-nft-vUe">Mint your NFT</Typography>
-                    <TextField
-                        className='enter-the-number-of-nfts-kia'
-                        id="standard-basic"
-                        defaultValue="Enter the number of NFTs"
-                        InputProps={{
-                            disableUnderline: true,
-                            sx: {
-                                bgcolor: 'white',
-                                borderRadius: 5, 
-                                fontSize:16
-                            }
-                        }}
-                    />
-                    <Button variant='contained' className="mint-ZAE" sx={{fontWeight:600 , borderRadius:5}}>Mint</Button>
-                    <img className="pngwing-3-EXG" src={pngwing3} alt='pngwing' />
-                </Box>
             </Box>
         </Box>
 

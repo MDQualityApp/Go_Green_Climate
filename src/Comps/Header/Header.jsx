@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Typography } from '@mui/material';
+import { Box, Typography, Grid } from '@mui/material';
 import RemoveBg from '../../assets/removebg-preview-1-cNA.png'
 import pngwing from '../../assets/pngwing-2-tqL.png'
 import gotlogouncut from '../../assets/gotlogouncut-removebg-preview-1.png'
@@ -32,37 +32,23 @@ export default function Header() {
 
   return (
       <div className="desktop-1-42aa">
-          <Box className="auto-group-wh57-8wY">
-              <img className="removebg-preview-1-FoC" src={RemoveBg} alt='removebg' />
-              <Typography className="home-VSe" onClick={() => navigate('/')}>Home</Typography>
-              <Typography className="how-it-works-H7c" onClick={handleClick}>
-                  Menu
-                  <br />
-              </Typography>
-              <Box className="auto-group-vigd-kWz">
-                  <Box className="frame-1-Suc"></Box>
-                  <Box className="rectangle-5-XAN"></Box>
-                  <Typography className="connect-your-wallet-y2N">{location.pathname === '/' ? 'Connect Your Wallet' : '5r4Pv7u6WTyijnM...'}</Typography>
-              </Box>
-          </Box>
-          <Box>
-              <Menu
-                  id="basic-menu"
-                  anchorEl={anchorEl}
-                  open={open}
-                  onClose={handleClose}
-                  MenuListProps={{
-                      'aria-labelledby': 'basic-button',
-                  }}
-                  sx={{ padding: 2, marginTop: 1 }}
-              >
-                  <MenuItem onClick={() => handleOpenPage('desktop2')} sx={{ fontSize: 16 }}>Contribution</MenuItem>
-                  <MenuItem onClick={() => handleOpenPage('desktop3')} sx={{ fontSize: 16 }}>Carbon Footprint</MenuItem>
-                  <MenuItem onClick={() => handleOpenPage('desktop4')} sx={{ fontSize: 16 }}>Project Tracking</MenuItem>
-                  <MenuItem onClick={() => handleOpenPage('desktop5')} sx={{ fontSize: 16 }}>Carbon Offset</MenuItem>
-                  <MenuItem onClick={() => handleOpenPage('desktop6')} sx={{ fontSize: 16 }}>Renewal</MenuItem>
-              </Menu>
-          </Box>
+        <Grid container spacing={2}>
+        <Grid item xs={12} sm={12} md={12} lg={12}>
+                  <Box className="auto-group-wh57-8wY">
+                    <Box>
+                    <img className="removebg-preview-1-FoC" src={RemoveBg} alt='removebg' />
+                    </Box>
+                      <Box display='flex' flexDirection='row'>
+                          <Typography className="home-VSe" onClick={() => navigate('/')}>Home</Typography>
+                          <Typography className="home-VSe" onClick={() => navigate('/desktop2')}>Contribution</Typography>
+                          <Typography className="home-VSe" onClick={() => navigate('/desktop3')}>Carbon Footprint</Typography>
+                          <Typography className="home-VSe" onClick={() => navigate('/desktop4')}>Project Tracking</Typography>
+                          <Typography className="home-VSe" onClick={() => navigate('/desktop5')}>Carbon Offset</Typography>
+                          <Typography className="home-VSe" onClick={() => navigate('/desktop6')}>Renewal</Typography>
+                      </Box>
+                  </Box>
+        </Grid>
+        </Grid>
     </div>
   )
 }
